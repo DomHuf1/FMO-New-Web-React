@@ -3,15 +3,11 @@ import React from "react";
 function IndexInfoBox() {
     return(
         <div className="index-img-text-box">
-            <table className="index-content">
-                <tbody>
-                    <tr>
-                <td id="index-group-img">
-                    <img src="../../public/img/concert-group.JPG" />
-                </td>
-                    </tr>
-                    <tr>
-                <td id="index-text-container">
+            <div className="index-content">
+                
+                <div id="index-group-img"></div>
+        
+                <div id="index-text-container">
                     <h1 className="text">五十弦</h1>
                     <h1 className="text">Five Millennia Orchestra</h1>
                     <hr className="text" />
@@ -28,10 +24,8 @@ function IndexInfoBox() {
                         乐团涉及的音乐风格包括但不限于古典音乐的传统乐器演奏、 国风流行音乐的演唱及伴奏，和原创古风音乐演唱及伴奏。
                         五十弦国风乐团欢迎所有有一技之长的乐手，歌手， 和对中国国风音乐感兴趣的朋友。
                     </p>
-                </td>
-                </tr>
-                </tbody>
-            </table>
+                </div>
+            </div>
         </div>
     )
 }

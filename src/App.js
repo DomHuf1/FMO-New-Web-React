@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import IndexInfoBox from './components/IndexInfoBox.js';
 import Header from './components/Header.js';
-import IndexBox from './IndexBox.js';
+
 
 
 class App extends Component {
@@ -9,7 +9,7 @@ class App extends Component {
       return(
          <div>
             <Header />
-            <IndexBox />
+            <IndexInfoBox />
          </div>
       );
    }
