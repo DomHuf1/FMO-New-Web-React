@@ -1,0 +1,181 @@
+h1 {
+    font-size: 2vw;
+}
+
+h2 {
+    font-size: 1.5vw;
+}
+
+p {
+    font-size: 1vw;
+}
+
+.head-container {
+    position: relative;
+}
+
+.head-container-lower-bar {
+    position: absolute;
+    text-align: center;
+    height: 11%;
+    bottom: 1%;
+}
+
+.list-item {
+    width: 20%;
+    font-size: 1.5vw;
+    border: 0px;
+    background-color: transparent;
+}
+
+#menu {
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+    overflow: hidden;
+    left-padding: 15%;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    float: left;
+    width: 20%;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color: rgb(230, 180, 130);
+}
+
+.card {
+    width: 18%;
+    height: 33vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(220, 200, 169);
+    margin: 1%;
+    float: left;
+}
+
+.picture {
+    margin: auto;
+}
+
+.text-container {
+    margin: auto;
+    text-align: center;
+    min-height: 10%;
+}
+
+.big-spacing {
+    height: 40px;
+}
+
+.small-spacing {
+    height: 20px;
+}
+
+.all-mem-sub-header {
+    border-left: 0.65vw solid;
+    border-color: rgb(172, 81, 24);
+    margin-left: 2%;
+    padding-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    display: inline;
+}
+
+.department-sub-header {
+    border-left: 0.6vw solid;
+    border-color: rgb(205, 133, 63);
+    margin-left: 2%;
+    padding-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    display: inline;
+}
+
+.instru-depart-section {
+    height: 69vw;
+    margin: auto;
+    padding: 20px;
+}
+
+.voice-depart-section {
+    height: 34vw;
+    margin: auto;
+    padding: 20px;
+}
+
+.internal-affair-depart-section {
+    height: 34vw;
+    margin: auto;
+    padding: 20px;
+}
+
+.pub-depart-section {
+    height: 34vw;
+    margin: auto;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-container {
+    margin: auto;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.footer-sub {
+    margin-left: 8%;
+    font-size: 2vw;
+}
+
+.table-left {
+    font-size: 1vw;
+}
+
+.table-container {
+    margin: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.footer-table {
+    margin: auto;
+    width: 80%;
+    border: none;
+    border-collapse: collapse;
+}
+
+.join-button {
+    position: center;
+    padding-top: 10px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.join-button {
+    background-color: white;
+    color: black;
+    border: 2px solid #f44336;
+}
+
+.join-button:hover {
+    background-color: #f44336;
+    color: white;
+    border: 2px solid gray;
+    cursor: pointer;
+}

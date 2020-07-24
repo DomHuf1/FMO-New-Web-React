@@ -1,0 +1,45 @@
+/* index group-image with text-info Component */
+
+.index-content {
+    margin: 1.8%;
+    margin-top: 2%;
+    overflow: hidden;
+    border-collapse: collapse;
+}
+
+
+/* Testing Style Below*/
+
+#index-group-img {
+    display: table-cell;
+    width: 75%;
+    background-image: url('../img/concert-group.JPG');
+    background-size: 100%;
+}
+
+#index-text-container {
+    background-color: rgba(0, 0, 0, .6);
+    width: 25%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#index-text-container h1 {
+    margin-left: 0.4em;
+    font-size: 2vw;
+}
+
+#index-text-container hr {
+    width: 300px;
+    margin-left: 1em;
+}
+
+#index-text-container p {
+    margin-left: 1em;
+    font-size: 1vw;
+}
+
+.text {
+    color: white;
+    margin-right: 1em;
+}
