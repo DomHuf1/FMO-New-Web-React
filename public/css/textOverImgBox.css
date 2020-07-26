@@ -1,0 +1,45 @@
+.about-container {
+    background-image: url('../img/about-us/about1.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 96%;
+    height: 50vw;
+    position: relative;
+    margin: auto;
+    color: white;
+    filter: contrast(80%);
+}
+
+.about-subheader {
+    text-align: center;
+    font-size: 3.8vw;
+    position: relative;
+    bottom: 0.8vw;
+    font-family: Poppins, sans-serif;
+    z-index: 2;
+}
+
+.about-text-container {
+    position: relative;
+    top: 15vw;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.vision-text-container {
+    position: relative;
+    top: 10vw;
+}
+
+.vision-subheader {
+    text-align: center;
+    font-size: 2.5vw;
+    padding-top: 3vw;
+}
+
+.text-para {
+    position: relative;
+    text-align: center;
+    font-size: 1.5vw;
+    line-height: 2.6vw;
+    margin: 0;
+}

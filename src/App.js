@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
-import IndexInfoBox from './components/IndexInfoBox.js';
-import Header from './components/Header.js';
-
+import Router from './Router.js';
 
 
 class App extends Component {
-   render(){
+   render() {
       return(
          <div>
-            <Header />
-            <IndexInfoBox />
+            <Router />
          </div>
       );
    }

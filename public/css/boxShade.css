@@ -1,0 +1,10 @@
+.shine-line {
+    height: 30px;
+    width: 80%;
+    background-image: radial-gradient( farthest-side at 50% -50%, hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0));
+    position: relative;
+    left: 10%;
+    right: 10%;
+    border: 0;
+    margin: 0;
+}
