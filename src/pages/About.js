@@ -7,7 +7,6 @@ import Footer from '../components/Footer';
 import SmallSpacing from '../components/SmallSpacing';
 import BoxShade from '../components/BoxShade';
 
-
 class About extends Component {
    render() {
       return(
