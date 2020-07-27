@@ -47,7 +47,7 @@ function VisionBox() {
             </div>
         </div>
         </div>
-    )
+    );
 }
 
 export default VisionBox;

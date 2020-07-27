@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-import Header from '../components/Header.js';
-import TextOverImgBox from '../components/TextOverImgBox.js'; 
-import VisionBox from '../components/VisionBox.js';
-import Footer from '../components/Footer.js';
-import SmallSpacing from '../components/SmallSpacing.js';
-import BoxShade from '../components/BoxShade.js';
+import Header from '../components/Header';
+import TextOverImgBox from '../components/TextOverImgBox'; 
+import VisionBox from '../components/VisionBox';
+import Footer from '../components/Footer';
+import SmallSpacing from '../components/SmallSpacing';
+import BoxShade from '../components/BoxShade';
 
 
 class About extends Component {

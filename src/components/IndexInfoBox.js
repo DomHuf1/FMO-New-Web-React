@@ -27,7 +27,7 @@ function IndexInfoBox() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default IndexInfoBox;

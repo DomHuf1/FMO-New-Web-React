@@ -17,8 +17,8 @@ function TextOverImgBox() {
                 中国传统节日时，社团会组织策划相应的活动。<br />
             </p>
         </div>
-    </div>
-    )
+        </div>
+    );
 }
 
 export default TextOverImgBox;

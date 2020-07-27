@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import Header from '../components/Header.js';
-import IndexInfoBox from '../components/IndexInfoBox.js';
-import Footer from '../components/Footer.js';
+import Header from '../components/Header';
+import IndexInfoBox from '../components/IndexInfoBox';
+import Footer from '../components/Footer';
 
 
 class Home extends Component {

@@ -25,7 +25,7 @@ function Header() {
                 </ul>
             </div>
         </div>
-    )
+    );
 }
 
 export default Header;

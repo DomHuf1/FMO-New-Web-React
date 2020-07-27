@@ -48,7 +48,7 @@ function Footer() {
             </table>
             </div>
         </div>
-    )
+    );
 }
 
 export default Footer;
