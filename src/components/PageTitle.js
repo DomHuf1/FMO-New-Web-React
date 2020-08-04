@@ -1,11 +1,11 @@
 import React from 'react';
 
-function PageTitle() {
+function PageTitle(props) {
     return (
         <div>
-            <h1 className="member-sub-header">Meet us</h1>
+            <h1 className={props.title}>{props.text}</h1>
         </div>
-    );
+    );p
 }
 
 export default PageTitle;

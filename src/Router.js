@@ -5,6 +5,7 @@ import { HashRouter as Router, Route } from 'react-router-dom';
 import About from './pages/About';
 import Home from './pages/Home';
 import Members from './pages/Members';
+import Eb1718 from './pages/eb/Eb17-18';
 import Events from './pages/Events';
 
 class router extends Component {
@@ -15,6 +16,7 @@ class router extends Component {
                     <Route exact path='/' component={Home} />
                     <Route path='/about' component={About} />
                     <Route path='/members' component={Members} />
+                    <Route path='/eb17-18' component={Eb1718} />
                     <Route path='/events' component={Events} />    
                 </div>
             </Router>

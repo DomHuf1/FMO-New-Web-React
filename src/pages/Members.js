@@ -13,7 +13,7 @@ class Members extends Component {
             <div>
                 <Header />
                 <SmallSpacing />
-                <Title />
+                <Title title='member-sub-header' text='Meet Us'/>
                 <SmallSpacing />
                 <GrpMemDiv />
                 <SmallSpacing />

@@ -1,3 +1,0 @@
-img/member17-18/WangYue.png;王玥 Eva;古筝;Revelle College & Major in Math and Econ / Minor in Accounting;Eva是古筝演奏者中不可或缺的一员。她同时也非常 喜欢瑜伽、诗词和古风的衣服饰品，活得既文艺又健康~
-img/member17-18/AthenaLiu.png;Athena Liu;古筝/中阮;Warren College & Major in Data Science / Minor in Math and Japanese Studies;喜欢古筝，中阮，各种音乐，日漫，睡觉。
-img/member17-18/XuZhiling.png;许之泠 Rose;笛子;Revelle College & Major in Political Science;喜欢历史, 喜欢戏剧, 尤其喜欢历史剧。
