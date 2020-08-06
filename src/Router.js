@@ -6,6 +6,7 @@ import About from './pages/About';
 import Home from './pages/Home';
 import Members from './pages/Members';
 import Eb1718 from './pages/eb/Eb17-18';
+import Eb1819 from './pages/eb/Eb18-19';
 import Events from './pages/Events';
 
 class router extends Component {
@@ -17,6 +18,7 @@ class router extends Component {
                     <Route path='/about' component={About} />
                     <Route path='/members' component={Members} />
                     <Route path='/eb17-18' component={Eb1718} />
+                    <Route path='/eb18-19' component={Eb1819} />
                     <Route path='/events' component={Events} />    
                 </div>
             </Router>

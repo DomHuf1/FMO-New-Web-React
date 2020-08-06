@@ -7,7 +7,10 @@ function MemCard(props) {
                 <img src={props.imgPath} /> 
             </div>
             <div className="text-container">
-                <p>姓名：{props.name} <br/> 学院/专业：{props.collegeMajor} <br/> {props.info}
+                <p> 姓名：{props.name} <br/> 
+                    职位：{props.title} <br/>
+                    学院/专业：{props.collegeMajor} <br/> 
+                    {props.info}
                 </p>
             </div>
         </div>

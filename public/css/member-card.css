@@ -1,10 +1,5 @@
 /* Below is the css configuration for the eb card */
 
-
-/*h1 {
-    font-size: 2vw;
-}*/
-
 .text-container p {
     font-size: 1vw;
 }
@@ -30,9 +25,17 @@ h1.eboard-sub-header {
 
 .content {
     /* Check this, still preserve or change?*/
-    height: 120vw;
+    /*height: 120vw;*/
     margin: auto;
     padding: 20px;
+}
+
+#content-eb-1718 {
+    height: 120vw;
+}
+
+#content-eb-1819 {
+    height: 80vw;
 }
 
 .picture {
