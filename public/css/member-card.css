@@ -16,7 +16,7 @@ h1.eboard-sub-header {
 
 .eb-card {
     width: 29%;
-    height: 37vw;
+    height: 38vw;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: Beige;
     margin: 2%;
@@ -57,7 +57,7 @@ h1.eboard-sub-header {
 
 .all-mem-card {
     width: 18%;
-    height: 33vw;
+    height: 30vw;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: rgb(220, 200, 169);
     margin: 1%;
@@ -83,56 +83,44 @@ h1.eboard-sub-header {
     font-size: 1.5vw;
 }
 
+.dept-sec {
+    padding: 1.5vw;
+}
+
 
 /* all-mem-card 18-19 */
 
-.instru-depart-section-18-19 {
-    height: 139vw;
-    margin: auto;
-    padding: 20px;
+.instru-dept-sec-18-19 {
+    height: 128vw;
 }
 
-.voice-depart-section-18-19 {
-    height: 34vw;
-    margin: auto;
-    padding: 20px;
+.vocal-dept-sec-18-19 {
+    height: 32vw;
 }
 
-.internal-affair-depart-section-18-19 {
-    height: 68vw;
-    margin: auto;
-    padding: 20px;
+.ia-dept-sec-18-19 {
+    height: 64w;
 }
 
-.pub-depart-section-18-19 {
-    height: 68vw;
-    margin: auto;
-    padding: 20px;
+.pub-dept-sec-18-19 {
+    height: 64vw;
 }
 
 
 /* all-mem-card 17-18 */
 
-.instru-depart-section-17-18 {
-    height: 69vw;
-    margin: auto;
-    padding: 20px;
+.instru-dept-sec-17-18 {
+    height: 64vw;
 }
 
-.voice-depart-section-17-18 {
-    height: 34vw;
-    margin: auto;
-    padding: 20px;
+.vocal-dept-sec-17-18 {
+    height: 32vw;
 }
 
-.internal-affair-depart-section-17-18 {
-    height: 34vw;
-    margin: auto;
-    padding: 20px;
+.ia-dept-sec-17-18 {
+    height: 32vw;
 }
 
-.pub-depart-section-17-18 {
-    height: 34vw;
-    margin: auto;
-    padding: 20px;
+.pub-dept-sec-17-18 {
+    height: 32vw;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import MemCard from '../../MemCard';
-import {allMem1718Instru, allMem1718IA, allMem1718Pub, allMem1718Vocal} from '../../../../data/mem-card-data';
+import { allMem1718Instru, allMem1718IA, allMem1718Pub, allMem1718Vocal } from '../../../../data/mem-card-data';
 
 const ID_INDEX = 0;
 const TYPE_INDEX = 1;
@@ -14,21 +14,21 @@ const BASE_PATH = '../../../public/img/';
 
 function AllMem1718Pub() {
     const pubCards = allMem1718Pub.map(
-        (item) => <MemCard 
-                    key={item[ID_INDEX]}
-                    cardType={item[TYPE_INDEX]}
-                    imgPath={BASE_PATH + item[PATH_INDEX]} 
-                    name={item[NAME_INDEX]}
-                    collegeMajor={item[COLLEGEM_INDEX]}
-                    info={item[INFO_INDEX]}
-                    title={item[TITLE_INDEX]}
-                />
+        (item) => <MemCard
+            key={item[ID_INDEX]}
+            cardType={item[TYPE_INDEX]}
+            imgPath={BASE_PATH + item[PATH_INDEX]}
+            name={item[NAME_INDEX]}
+            collegeMajor={item[COLLEGEM_INDEX]}
+            info={item[INFO_INDEX]}
+            title={item[TITLE_INDEX]}
+        />
     )
 
     return (
-        <div className='pub-depart-section'>
+        <div className='pub-dept-sec-17-18  dept-sec'>
             {pubCards}
-        </div>  
+        </div>
     );
 }
 

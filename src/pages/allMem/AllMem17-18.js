@@ -3,23 +3,38 @@ import React, { Component } from 'react';
 import Header from '../../components/Header';
 import BigSpacing from '../../components/BigSpacing';
 import SmallSpacing from '../../components/SmallSpacing';
-import Eb1718Cards from '../../components/mem-cards/Eb1718Cards';
 import Title from '../../components/PageTitle';
+import SubTitle from '../../components/PageSubTitle';
+import InstruCards from '../../components/mem-cards/all-mem-cards/AllMem1718Instru';
+import IACards from '../../components/mem-cards/all-mem-cards/AllMem1718IA';
+import PubCards from '../../components/mem-cards/all-mem-cards/AllMem1718Pub';
+import VocalCards from '../../components/mem-cards/all-mem-cards/AllMem1718Vocal';
 import Footer from '../../components/Footer';
 
 
-class Eb1718 extends Component {
+class AllMem1718 extends Component {
    render() {
-      return(
+      return (
          <div>
             <Header />
             <BigSpacing />
-            <Title title='eboard-sub-header' text='2017 - 2018 Eboard Members' />
-            <Eb1718Cards />
+            <Title title='all-mem-sub-header' text='2017-2018 All Members' />
             <SmallSpacing />
+
+            <SubTitle title='department-sub-header' text='Instrumental Department' />
+            <InstruCards />
+
+            <SubTitle title='department-sub-header' text='Department of Voice' />
+            <VocalCards />
+
+            <SubTitle title='department-sub-header' text='Department of Internal Affair' />
+            <IACards />
+
+            <SubTitle title='department-sub-header' text='Department of Publicity' />
+            <PubCards />
             <Footer />
          </div>
       );
    }
 }
-export default Eb1718;
+export default AllMem1718;

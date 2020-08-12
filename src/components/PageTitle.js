@@ -5,7 +5,7 @@ function PageTitle(props) {
         <div>
             <h1 className={props.title}>{props.text}</h1>
         </div>
-    );p
+    );
 }
 
 export default PageTitle;
